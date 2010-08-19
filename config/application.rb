@@ -41,5 +41,7 @@ module Handsomefencer
 
     # Configure sensitive parameters which will be filtered from the log file.
     config.filter_parameters += [:password, :password_confirmation]
+    config.secret_token = '35dc94bc0e9c1e8aa1ab7e385bad6ab8c1a3078e7f788cb1717fea7fb8f4be69ba0ad8c54ed39ec3b3e16447cb569d3d1e43e9d1c3ac372157b826c304146ee2'
   end
 end
+
